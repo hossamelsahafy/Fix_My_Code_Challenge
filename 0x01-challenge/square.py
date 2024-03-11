@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-
+"""
+Define square class
+"""
 class square():
-
+"""Class Square"""
     width = 0
 
     def __init__(self, *args, **kwargs):
