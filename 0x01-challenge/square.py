@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-""" Square module. """
+"""Definr Of Square Class"""
 
 
 class Square():
-    """ Square class. """
+    """Class Of Square"""
     width = 0
     height = 0
 
@@ -26,7 +26,7 @@ class Square():
 
 
 if __name__ == "__main__":
-    """ Create Square instance """
+    """Square instance"""
     s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
